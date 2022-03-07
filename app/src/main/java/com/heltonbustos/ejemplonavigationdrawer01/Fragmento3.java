@@ -27,6 +27,7 @@ public class Fragmento3 extends Fragment {
         // Inflate the layout for this fragment
 
         btnSaludar.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 Toast.makeText(getContext(),"Holaaa gracias por venir!!!",Toast.LENGTH_SHORT).show();
